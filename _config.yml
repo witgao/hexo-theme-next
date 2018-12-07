@@ -138,9 +138,9 @@ exturl: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
   archives: /archives/ || archive
+  categories: /categories/ || th
+  tags: /tags/ || tags
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -155,10 +155,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+# scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -206,11 +206,11 @@ links_layout: block
   #Title: http://example.com
 
 # Sidebar Avatar
-avatar:
+avatar: 
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar1.jpg #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -543,16 +543,16 @@ valine:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github Username
-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: witgao# MUST HAVE, Your Github Username
+  github_repo: witgao.github.io# MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: f86f032f35a2ba780c01# MUST HAVE, Github client id for the Gitment
+  client_secret: 7efe21dc8036591c0275f85d9548de6cf2c059c3# EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -748,7 +748,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
