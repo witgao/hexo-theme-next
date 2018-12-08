@@ -138,10 +138,15 @@ exturl: false
 menu:
   home: / || home
   #about: /about/ || user
-  archives: /archives/ || archive
-  categories: /categories/ || th
-  tags: /tags/ || tags
-  #schedule: /schedule/ || calendar
+  # archives: /archives/ || archive
+  android: /categories/android/ || android
+  frontend: /categories/frontend || html5
+  flutter: /categories/flutter || facebook-f
+  arcore: /categories/arcore|| anchor
+  leetCode: /categories/leetcode|| battery-full
+  # categories: /categories/ || th
+  # tags: /tags/ || tags
+  # schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
@@ -173,9 +178,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: https://github.com/witgao || github
+  E-Mail: mailto:witgao328@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
