@@ -554,10 +554,10 @@ gitment:
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: witgao# MUST HAVE, Your Github Username
-  github_repo: witgao.github.io# MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: f86f032f35a2ba780c01# MUST HAVE, Github client id for the Gitment
-  client_secret: 7efe21dc8036591c0275f85d9548de6cf2c059c3# EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: witgao # MUST HAVE, Your Github Username
+  github_repo: witgao.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: f86f032f35a2ba780c01 # MUST HAVE, Github client id for the Gitment
+  client_secret: 7efe21dc8036591c0275f85d9548de6cf2c059c3 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
