@@ -139,10 +139,10 @@ menu:
   home: / || home
   #about: /about/ || user
   # archives: /archives/ || archive
+  av: /categories/av|| camera
   android: /categories/android/ || android
   frontend: /categories/frontend || html5
   flutter: /categories/flutter || facebook-f
-  arcore: /categories/arcore|| anchor
   leetCode: /categories/leetcode|| battery-full
   # categories: /categories/ || th
   # tags: /tags/ || tags

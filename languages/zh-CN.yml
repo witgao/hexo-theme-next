@@ -14,10 +14,10 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
-  android: Android源码分析
+  av: 音视频技术
+  android: Android爬坑
   frontend: 前端萌新
   flutter: Flutter探索
-  arcore: ARCore
   leetCode: LeetCode
 sidebar:
   overview: 站点概览
